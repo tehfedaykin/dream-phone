@@ -1,0 +1,13 @@
+<p>phone-directory works!</p>
+<table>
+  <tr>
+    <th>Where the boys are</th>
+    <th>Who You're Gonna Call</th>
+    <th>Hot Numbers LMAO</th>
+  </tr>
+  <tr *ngFor="let crush of crushes">
+    <td>{{crush.hangout}}</td>
+    <td>{{crush.name}}</td>
+    <td>{{crush.phone}}</td>
+  </tr>
+</table>
